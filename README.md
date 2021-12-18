@@ -1,1 +1,1 @@
-# arallel fish boids simulation
+# Parallel fish boids simulation
