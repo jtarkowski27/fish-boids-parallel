@@ -1,1 +1,2 @@
-# Parallel fish boids simulation
+# Parallel fish boids
+
