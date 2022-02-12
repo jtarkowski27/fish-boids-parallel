@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "*.tcc": "cpp",
+        "algorithm": "cpp",
+        "random": "cpp",
+        "fstream": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "utility": "cpp",
+        "cmath": "cpp",
+        "iosfwd": "cpp",
+        "scene.h": "c",
+        "optional": "cpp",
+        "numeric": "cpp",
+        "streambuf": "cpp",
+        "iostream": "cpp",
+        "chrono": "cpp",
+        "ratio": "cpp",
+        "cstdint": "cpp",
+        "functional": "cpp"
+    }
+}
