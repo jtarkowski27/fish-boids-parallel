@@ -6,7 +6,7 @@
                 "${workspaceFolder}/**",
                 "/usr/local/cuda/samples/common/inc",
                 "${workspaceFolder}/imgui",
-                "${workspaceFolder}/imgui/backend"
+                "${workspaceFolder}/imgui/backends"
             ],
             "defines": [],
             "compilerPath": "/usr/local/cuda-10.1/bin/gcc",
