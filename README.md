@@ -10,7 +10,7 @@ This project contains the source code for basic 3D simulation of the flocking be
 - default fishes (which act according to the classical steer rules but with additional predator avoidance),
 - predators (which move almost the same as default fishes but are avoided by non-predator fishes).
 
-Implementation was based on [Craig Reynolds article](http://www.red3d.com/cwr/boids/) and [@TortillaZHawaii's](https://github.com/TortillaZHawaii/fishes_cuda) repo.
+Implementation was based on [Craig Reynolds's article](http://www.red3d.com/cwr/boids/) and [@TortillaZHawaii's](https://github.com/TortillaZHawaii/fishes_cuda) repo.
 
 ## Dependencies
 
