@@ -4,8 +4,8 @@
 #include <thrust/host_vector.h>
 #include <thrust/device_vector.h>
 
-#include "boids.h"
-#include "algorithm_gpu.h"
+#include "boids.cuh"
+#include "boids_algorithm.cuh"
 
 #include <helper_cuda.h>
 

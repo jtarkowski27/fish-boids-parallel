@@ -1,7 +1,7 @@
 #pragma once
 
-#include "boids.h"
-#include "dummy_math.h"
+#include "boids.cuh"
+#include "dummy_math.cuh"
 
 struct steer_args
 {

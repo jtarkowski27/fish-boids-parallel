@@ -5,8 +5,8 @@
 #include <helper_timer.h>
 #include <helper_cuda.h>
 
-#include "vec3.h"
-#include "dummy_math.h"
+#include "vec3.cuh"
+#include "dummy_math.cuh"
 
 #define TRIANGLES_PER_FISH 4
 #define DIMENSIONS_COUNT 3
