@@ -33,4 +33,4 @@ After succesfull compilation you should be able to run the program by simply cal
 $ ./boids
 ```
 By default program will run a prallel simulation of flocking behaviour with 10k fishes and default simulatin parameters. While the simulation is running you are able to change few paremeters within defined range. 
-It is possible to execute algorithm purely on CPU. In order to do so you need to uncheck `GPU Computation` checkbox. For the performace's sake computation on CPU is limited to process 1k fishes maximum.
+It is possible to execute algorithm purely on CPU. In order to do so you need to uncheck `GPU Computation` checkbox. For the performace's sake computation on CPU is limited to process 500 fishes maximum.
