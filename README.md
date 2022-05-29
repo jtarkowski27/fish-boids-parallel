@@ -14,7 +14,7 @@ Implementation was based on [Craig Reynolds's article](http://www.red3d.com/cwr/
 
 ## Dependencies
 
-Following dependencies were used in this project:
+Following tools were used in this project:
 
 * CUDA SDK 10.1
 * OpenGL 4.6.0
