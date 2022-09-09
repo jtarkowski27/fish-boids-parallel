@@ -1,12 +1,3 @@
-#
-# Cross Platform Makefile
-# Compatible with MSYS2/MINGW, Ubuntu 14.04.1 and Mac OS X
-#
-# Linux:
-#   apt-get install freeglut3-dev
-#
-
-#CXX = g++
 CXX = nvcc
 
 EXE = boids
@@ -20,10 +11,6 @@ UNAME_S := $(shell uname -s)
 CXXFLAGS = -I$(IMGUI_DIR) -I$(IMGUI_DIR)/backends
 CXXFLAGS += -g 
 LIBS = -I"/usr/local/cuda/samples/common/inc"
-
-##---------------------------------------------------------------------
-## BUILD FLAGS PER PLATFORM
-##---------------------------------------------------------------------
 
 ifeq ($(UNAME_S), Linux) #LINUX
 	ECHO_MESSAGE = "Linux"
@@ -51,10 +38,6 @@ else
 endif
 	CFLAGS = $(CXXFLAGS)
 endif
-
-##---------------------------------------------------------------------
-## BUILD RULES
-##---------------------------------------------------------------------
 
 %.o:%.cu
 	$(CXX) $(CXXFLAGS) -c -o $@ $< $(LIBS)
